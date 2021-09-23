@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.blue {
+  color: #2b82cb;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: #ff3131;
+}
+
+.green {
+  color: #20b520;
+}
