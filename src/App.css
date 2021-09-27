@@ -6,6 +6,14 @@ body {
   text-align: center;
 }
 
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .blue {
   color: #2b82cb;
 }
@@ -26,12 +34,38 @@ body {
   width: 30%;
   float: left;
   padding: 20px;
+  margin: 50px 0;
 }
 
 .graficoLinha {
   width: 60%;
   float: left;
   padding: 20px;
+  margin: 50px 0;
+}
+
+.rodape {
+  color: #ddeaff;
+  background-color: #1e4d6f;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+}
+
+.rodape p {
+  padding: 0 20px;
+}
+
+.rodape a {
+  color: #ddeaff;
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  color: #fff;
 }
 
 @media(max-width: 904px) {
@@ -39,6 +73,7 @@ body {
     width: 100%;
     float: none;
     padding: 0;
+    margin-bottom: 35px;
   }
   .graficoLinha canvas {
     width: 80% !important;
@@ -48,6 +83,8 @@ body {
     width: 100%;
     float: none;
     padding: 0;
+    margin-top: 35px;
+    margin-bottom: 65px;
   }
   .graficoRosca canvas {
     width: 60% !important;
